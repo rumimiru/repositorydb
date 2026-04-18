@@ -1,0 +1,36 @@
+1. Client (Browser)
+The client is the program the user uses to access the system.
+Examples include Google Chrome and Mozilla Firefox.
+It sends requests to the server and shows the response.
+
+
+2. Frontend (UI Layer)
+The frontend runs in the browser.
+It uses HTML, CSS, and JavaScript.
+It displays content and handles user input such as clicks and form data.
+
+
+3. Backend (Server)
+The backend handles requests from the frontend.
+It runs logic and processes data.
+It sends responses back to the frontend.
+
+
+4. Database (MongoDB – conceptual)
+The database stores data such as user records.
+An example is MongoDB.
+The backend reads from and writes to the database.
+
+Client (Browser)
+↓
+Frontend (UI Layer)
+↓
+Backend (Server)
+↓
+Database (MongoDB)
+↑
+Backend (Server)
+↑
+Frontend (UI Layer)
+↑
+Client (Browser)
