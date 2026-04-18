@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Connect to MongoDB
+// to mongoDB
 mongoose.connect('mongodb://127.0.0.1:27017/schema-demo', {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -8,17 +8,17 @@ mongoose.connect('mongodb://127.0.0.1:27017/schema-demo', {
 .then(() => console.log('Database Connected'))
 .catch(err => console.log(err));
 
-// Define Schema
+//schema
 const userSchema = new mongoose.Schema({
     name: String,
     email: String,
     age: Number
 });
 
-// Create Model
+// model
 const User = mongoose.model('User', userSchema);
 
-// Insert Data
+// data
 const createUser = async () => {
     try {
         const user = new User({
