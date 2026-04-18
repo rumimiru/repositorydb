@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // 🔹 Connect to MongoDB (local or Atlas)
-mongoose.connect("mongodb://francine:school@ac-qq0ihiw-shard-00-00.p7cap5p.mongodb.net:27017,ac-qq0ihiw-shard-00-01.p7cap5p.mongodb.net:27017,ac-qq0ihiw-shard-00-02.p7cap5p.mongodb.net:27017/?ssl=true&replicaSet=atlas-8kqyk6-shard-0&authSource=admin&appName=Cluster0")
+mongoose.connect("mongodb://francine:secretpass@ac-qq0ihiw-shard-00-00.p7cap5p.mongodb.net:27017,ac-qq0ihiw-shard-00-01.p7cap5p.mongodb.net:27017,ac-qq0ihiw-shard-00-02.p7cap5p.mongodb.net:27017/?ssl=true&replicaSet=atlas-8kqyk6-shard-0&authSource=admin&appName=Cluster0")
 .then(() => console.log("Database Connected"))
 .catch(err => console.log(err));
 
