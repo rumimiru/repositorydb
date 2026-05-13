@@ -1,0 +1,11 @@
+{
+  "name": "error-middleware-demo",
+  "version": "1.0.0",
+  "description": "Demo project for Express error middleware",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
